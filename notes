@@ -1,0 +1,116 @@
+v314-ent-016:Downloads student$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v314-ent-016:Downloads student$ cd ~
+v314-ent-016:~ student$ cd ~
+v314-ent-016:~ student$ git clone https://github.com/Harrisonlukehumphrey/lab_01_commandline_01.git
+Cloning into 'lab_01_commandline_01'...
+remote: Enumerating objects: 4, done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 4
+Unpacking objects: 100% (4/4), done.
+v314-ent-016:~ student$  git branch
+fatal: not a git repository (or any of the parent directories): .git
+v314-ent-016:~ student$ ls
+Adlm				Public
+Applications			QLData
+Desktop				Things
+Documents			ipe.properties
+Downloads			isus
+Library				lab_01_commandline_01
+Movies				pslog_20200109_170408.log
+Music				pymel.log
+Pictures			xgen
+v314-ent-016:~ student$ cd lab_01_commandline_01/
+v314-ent-016:lab_01_commandline_01 student$ git branch
+* master
+v314-ent-016:lab_01_commandline_01 student$ ls-a
+-bash: ls-a: command not found
+v314-ent-016:lab_01_commandline_01 student$ ls -a
+.				lab-entering-commands.txt
+..				lab-file-system.txt
+.git
+v314-ent-016:lab_01_commandline_01 student$ atom lab-entering-commands.txt 
+v314-ent-016:lab_01_commandline_01 student$ ls
+lab-entering-commands.txt	lab-file-system.txt
+v314-ent-016:lab_01_commandline_01 student$ 
+v314-ent-016:lab_01_commandline_01 student$ git master
+git: 'master' is not a git command. See 'git --help'.
+
+The most similar command is
+	restore
+v314-ent-016:lab_01_commandline_01 student$ git branch
+* master
+v314-ent-016:lab_01_commandline_01 student$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   lab-entering-commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+v314-ent-016:lab_01_commandline_01 student$ git add -A
+v314-ent-016:lab_01_commandline_01 student$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   lab-entering-commands.txt
+
+v314-ent-016:lab_01_commandline_01 student$ git commit -m "my first lab"
+[master b1df0b7] my first lab
+ Committer: Student <student@v314-ent-016.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 23 insertions(+), 10 deletions(-)
+v314-ent-016:lab_01_commandline_01 student$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+v314-ent-016:lab_01_commandline_01 student$ git push origin master
+Username for 'https://github.com': Harrisonlukehumphrey
+Password for 'https://Harrisonlukehumphrey@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 731 bytes | 731.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Harrisonlukehumphrey/lab_01_commandline_01.git
+   3583a8e..b1df0b7  master -> master
+v314-ent-016:lab_01_commandline_01 student$ 
