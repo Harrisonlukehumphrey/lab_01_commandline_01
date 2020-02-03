@@ -103,7 +103,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Var
 
 ==========
 8.  Type:
@@ -113,37 +113,37 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+up arrow
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-a -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<TAB>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Documents
 
 ==========
 14.  Type:
@@ -153,7 +153,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+command not found
 
 ==========
 15.  Type:
@@ -163,7 +163,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+command not found
 
 ==========
 16.  In the following line....
@@ -172,3 +172,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls is the command, -a is the flag, desktop is the argument,$ is the prompt
